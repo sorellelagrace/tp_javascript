@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="bg-primary" id="header">
+            <h1>Gestion des Etudiants</h1>
+        </div>
+        <div class="but my-3">
+            <input class="btn bg-primary mx-1" type="button" name="" value="Enregistrement" id="enregistrement">
+            <input class="btn bg-warning" type="button" name="" value="Liste des Etudiants" id="etudiant">
+        </div>
+        <div id="body">
+            <div id="left">
+                <h3>Enregistrer un etudiant</h3>
+                <div><label for="">Nom</label></div>
+                <div><input type="text" name=""></div>
+                <div><label for="">Prenom</label></div>
+                <div><input type="text" name=""></div>
+                <div><label for="">Lieu de naissance</label></div>
+                <div><input type="text" name=""></div>
+                <div>
+                    <div><label for="">Matieres</label></div>
+                    <div>
+                        <select type="matiere" name="matiere">
+                            <option>DOM</option>
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>Javascript</option>
+                            <option>PHP</option>
+                        </select>
+                    </div>
+                    <div><label for="">Note</label></div>
+                    <div><input type="text"></div>
+                    <input type="button" name="" value="Ajouter" class="bg-info">
+                </div>
+                <div>
+                    <input type="button" name="" value="Enregistrer" class=" btn bg-warning">
+                    <input type="button" name="" value="Effacer" class="btn btn-danger">
+                </div>
+            </div>
+            <div id="right">
+                <div><label for="">Parcours</label></div>
+                <div>
+                    <select type="text" name="">
+                        <option>Developpement Web</option>
+                        <option>Art Numerique</option>
+                        <option>Data Science</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="">Poids</label>
+                    <input type="number" name="">
+                    <label for="">Taille( en cm)</label>
+                    <input type="number" name="">
+                </div>
+                <div>
+                    <label for="">Sexe</label>
+                    <div>
+                        <input type="radio" name="sexe">
+                        <label for="masculin">Homme</label>
+
+                        <input type="radio" name="sexe">
+                        <label for="feminin">Femme</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="">Date de Naissance</label>
+                    <input type="" name="" value="jj/mm/aaaa">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="bodyy">
+            <h3>Zone Affichage</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>N<sup>o</sup> Matricule</th>
+                        <th>Nom de l'etudiant</th>
+                        <th>Date de Naissance</th>
+                        <th>Lieu de Naissance</th>
+                        <th>Sexe</th>
+                        <th>Taille</th>
+                        <th>Poids</th>
+                        <th>Parcours</th>
+                        <th>Matières</th>
+                        <th>Action</th>
+                </thead>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div id="bodyyy">
+            <h3>Zone details</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matieres</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/etudiant.js"></script>
+</body>
+
+</html>

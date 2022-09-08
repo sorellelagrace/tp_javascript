@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width: 80%;
+
+    font-size: 18px;
+}
+#header{
+    display: flex;
+    justify-content: center;
+}
+#body{
+    border: 1px solid silver; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: rgb(243, 213, 42);
+}
+#bodyy{
+    border: 1px solid silver; 
+    margin-top: 25px;
+    
+    
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+table tr th{
+    border: 1px solid silver;
+}
+#bodyyy{
+    border: 1px solid silver;
+    margin-top: 25px;
+    
+    
+}
+
+
